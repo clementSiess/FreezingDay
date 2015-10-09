@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042DB43F1BC8852F00843173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB43E1BC8852F00843173 /* AppDelegate.swift */; };
+		042DB4411BC8852F00843173 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4401BC8852F00843173 /* GameScene.sks */; };
+		042DB4431BC8852F00843173 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4421BC8852F00843173 /* GameScene.swift */; };
+		042DB4451BC8852F00843173 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4441BC8852F00843173 /* GameViewController.swift */; };
+		042DB4481BC8852F00843173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4461BC8852F00843173 /* Main.storyboard */; };
+		042DB44A1BC8852F00843173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4491BC8852F00843173 /* Assets.xcassets */; };
+		042DB44D1BC8852F00843173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DB44B1BC8852F00843173 /* LaunchScreen.storyboard */; };
+		042DB4581BC8852F00843173 /* FreezingDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4571BC8852F00843173 /* FreezingDayTests.swift */; };
+		042DB4631BC8852F00843173 /* FreezingDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4621BC8852F00843173 /* FreezingDayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042DB4541BC8852F00843173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042DB4331BC8852F00843173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042DB43A1BC8852F00843173;
+			remoteInfo = FreezingDay;
+		};
+		042DB45F1BC8852F00843173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042DB4331BC8852F00843173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042DB43A1BC8852F00843173;
+			remoteInfo = FreezingDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042DB43B1BC8852F00843173 /* FreezingDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreezingDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DB43E1BC8852F00843173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042DB4401BC8852F00843173 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		042DB4421BC8852F00843173 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		042DB4441BC8852F00843173 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		042DB4471BC8852F00843173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042DB4491BC8852F00843173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042DB44C1BC8852F00843173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042DB44E1BC8852F00843173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DB4531BC8852F00843173 /* FreezingDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreezingDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DB4571BC8852F00843173 /* FreezingDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezingDayTests.swift; sourceTree = "<group>"; };
+		042DB4591BC8852F00843173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DB45E1BC8852F00843173 /* FreezingDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreezingDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DB4621BC8852F00843173 /* FreezingDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezingDayUITests.swift; sourceTree = "<group>"; };
+		042DB4641BC8852F00843173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042DB4381BC8852F00843173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB4501BC8852F00843173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB45B1BC8852F00843173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042DB4321BC8852F00843173 = {
+			isa = PBXGroup;
+			children = (
+				042DB43D1BC8852F00843173 /* FreezingDay */,
+				042DB4561BC8852F00843173 /* FreezingDayTests */,
+				042DB4611BC8852F00843173 /* FreezingDayUITests */,
+				042DB43C1BC8852F00843173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042DB43C1BC8852F00843173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042DB43B1BC8852F00843173 /* FreezingDay.app */,
+				042DB4531BC8852F00843173 /* FreezingDayTests.xctest */,
+				042DB45E1BC8852F00843173 /* FreezingDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042DB43D1BC8852F00843173 /* FreezingDay */ = {
+			isa = PBXGroup;
+			children = (
+				042DB43E1BC8852F00843173 /* AppDelegate.swift */,
+				042DB4401BC8852F00843173 /* GameScene.sks */,
+				042DB4421BC8852F00843173 /* GameScene.swift */,
+				042DB4441BC8852F00843173 /* GameViewController.swift */,
+				042DB4461BC8852F00843173 /* Main.storyboard */,
+				042DB4491BC8852F00843173 /* Assets.xcassets */,
+				042DB44B1BC8852F00843173 /* LaunchScreen.storyboard */,
+				042DB44E1BC8852F00843173 /* Info.plist */,
+			);
+			path = FreezingDay;
+			sourceTree = "<group>";
+		};
+		042DB4561BC8852F00843173 /* FreezingDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				042DB4571BC8852F00843173 /* FreezingDayTests.swift */,
+				042DB4591BC8852F00843173 /* Info.plist */,
+			);
+			path = FreezingDayTests;
+			sourceTree = "<group>";
+		};
+		042DB4611BC8852F00843173 /* FreezingDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042DB4621BC8852F00843173 /* FreezingDayUITests.swift */,
+				042DB4641BC8852F00843173 /* Info.plist */,
+			);
+			path = FreezingDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042DB43A1BC8852F00843173 /* FreezingDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042DB4671BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDay" */;
+			buildPhases = (
+				042DB4371BC8852F00843173 /* Sources */,
+				042DB4381BC8852F00843173 /* Frameworks */,
+				042DB4391BC8852F00843173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreezingDay;
+			productName = FreezingDay;
+			productReference = 042DB43B1BC8852F00843173 /* FreezingDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042DB4521BC8852F00843173 /* FreezingDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042DB46A1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayTests" */;
+			buildPhases = (
+				042DB44F1BC8852F00843173 /* Sources */,
+				042DB4501BC8852F00843173 /* Frameworks */,
+				042DB4511BC8852F00843173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042DB4551BC8852F00843173 /* PBXTargetDependency */,
+			);
+			name = FreezingDayTests;
+			productName = FreezingDayTests;
+			productReference = 042DB4531BC8852F00843173 /* FreezingDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042DB45D1BC8852F00843173 /* FreezingDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042DB46D1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayUITests" */;
+			buildPhases = (
+				042DB45A1BC8852F00843173 /* Sources */,
+				042DB45B1BC8852F00843173 /* Frameworks */,
+				042DB45C1BC8852F00843173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042DB4601BC8852F00843173 /* PBXTargetDependency */,
+			);
+			name = FreezingDayUITests;
+			productName = FreezingDayUITests;
+			productReference = 042DB45E1BC8852F00843173 /* FreezingDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042DB4331BC8852F00843173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "clement siess";
+				TargetAttributes = {
+					042DB43A1BC8852F00843173 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					042DB4521BC8852F00843173 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 042DB43A1BC8852F00843173;
+					};
+					042DB45D1BC8852F00843173 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 042DB43A1BC8852F00843173;
+					};
+				};
+			};
+			buildConfigurationList = 042DB4361BC8852F00843173 /* Build configuration list for PBXProject "FreezingDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042DB4321BC8852F00843173;
+			productRefGroup = 042DB43C1BC8852F00843173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042DB43A1BC8852F00843173 /* FreezingDay */,
+				042DB4521BC8852F00843173 /* FreezingDayTests */,
+				042DB45D1BC8852F00843173 /* FreezingDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042DB4391BC8852F00843173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DB4411BC8852F00843173 /* GameScene.sks in Resources */,
+				042DB44D1BC8852F00843173 /* LaunchScreen.storyboard in Resources */,
+				042DB44A1BC8852F00843173 /* Assets.xcassets in Resources */,
+				042DB4481BC8852F00843173 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB4511BC8852F00843173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB45C1BC8852F00843173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042DB4371BC8852F00843173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DB4431BC8852F00843173 /* GameScene.swift in Sources */,
+				042DB4451BC8852F00843173 /* GameViewController.swift in Sources */,
+				042DB43F1BC8852F00843173 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB44F1BC8852F00843173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DB4581BC8852F00843173 /* FreezingDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042DB45A1BC8852F00843173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DB4631BC8852F00843173 /* FreezingDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042DB4551BC8852F00843173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042DB43A1BC8852F00843173 /* FreezingDay */;
+			targetProxy = 042DB4541BC8852F00843173 /* PBXContainerItemProxy */;
+		};
+		042DB4601BC8852F00843173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042DB43A1BC8852F00843173 /* FreezingDay */;
+			targetProxy = 042DB45F1BC8852F00843173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042DB4461BC8852F00843173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042DB4471BC8852F00843173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042DB44B1BC8852F00843173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042DB44C1BC8852F00843173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042DB4651BC8852F00843173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042DB4661BC8852F00843173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042DB4681BC8852F00843173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreezingDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042DB4691BC8852F00843173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreezingDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		042DB46B1BC8852F00843173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FreezingDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreezingDay.app/FreezingDay";
+			};
+			name = Debug;
+		};
+		042DB46C1BC8852F00843173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreezingDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreezingDay.app/FreezingDay";
+			};
+			name = Release;
+		};
+		042DB46E1BC8852F00843173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FreezingDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreezingDay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		042DB46F1BC8852F00843173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreezingDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreezingDay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042DB4361BC8852F00843173 /* Build configuration list for PBXProject "FreezingDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DB4651BC8852F00843173 /* Debug */,
+				042DB4661BC8852F00843173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042DB4671BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DB4681BC8852F00843173 /* Debug */,
+				042DB4691BC8852F00843173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042DB46A1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DB46B1BC8852F00843173 /* Debug */,
+				042DB46C1BC8852F00843173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042DB46D1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DB46E1BC8852F00843173 /* Debug */,
+				042DB46F1BC8852F00843173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042DB4331BC8852F00843173 /* Project object */;
+}
