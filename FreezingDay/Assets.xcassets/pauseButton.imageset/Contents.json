@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Spaceship.png"
+      "filename" : "pauseButton-1.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "pauseButton.png",
       "scale" : "2x"
     },
     {

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		042DB43F1BC8852F00843173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB43E1BC8852F00843173 /* AppDelegate.swift */; };
-		042DB4411BC8852F00843173 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4401BC8852F00843173 /* GameScene.sks */; };
 		042DB4431BC8852F00843173 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4421BC8852F00843173 /* GameScene.swift */; };
 		042DB4451BC8852F00843173 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4441BC8852F00843173 /* GameViewController.swift */; };
 		042DB4481BC8852F00843173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4461BC8852F00843173 /* Main.storyboard */; };
@@ -16,6 +15,17 @@
 		042DB44D1BC8852F00843173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DB44B1BC8852F00843173 /* LaunchScreen.storyboard */; };
 		042DB4581BC8852F00843173 /* FreezingDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4571BC8852F00843173 /* FreezingDayTests.swift */; };
 		042DB4631BC8852F00843173 /* FreezingDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4621BC8852F00843173 /* FreezingDayUITests.swift */; };
+		042DB4711BC88E0E00843173 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4701BC88E0E00843173 /* Level1Scene.swift */; settings = {ASSET_TAGS = (); }; };
+		042DB4731BC88EA200843173 /* snowman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4721BC88EA200843173 /* snowman.atlas */; settings = {ASSET_TAGS = (); }; };
+		042DB4751BC88EA900843173 /* car.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4741BC88EA900843173 /* car.atlas */; settings = {ASSET_TAGS = (); }; };
+		042DB4771BC88EB100843173 /* coin.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4761BC88EB100843173 /* coin.atlas */; settings = {ASSET_TAGS = (); }; };
+		042DB47A1BC88F4000843173 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4781BC88F4000843173 /* SnowParticle.sks */; settings = {ASSET_TAGS = (); }; };
+		042DB47B1BC88F4000843173 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 042DB4791BC88F4000843173 /* spark.png */; settings = {ASSET_TAGS = (); }; };
+		042DB47D1BC88F9800843173 /* SmokeCar.sks in Resources */ = {isa = PBXBuildFile; fileRef = 042DB47C1BC88F9800843173 /* SmokeCar.sks */; settings = {ASSET_TAGS = (); }; };
+		042DB47F1BC8903000843173 /* WinningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB47E1BC8903000843173 /* WinningScene.swift */; settings = {ASSET_TAGS = (); }; };
+		042DB4811BC8904900843173 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB4801BC8904900843173 /* GameOverScene.swift */; settings = {ASSET_TAGS = (); }; };
+		04D9AF501BCD907F008D9BDB /* CustomSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9AF4F1BCD907F008D9BDB /* CustomSKView.swift */; settings = {ASSET_TAGS = (); }; };
+		04D9F5F01BD1621E00036559 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F5EF1BD1621E00036559 /* Sounds */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 /* Begin PBXFileReference section */
 		042DB43B1BC8852F00843173 /* FreezingDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreezingDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DB43E1BC8852F00843173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		042DB4401BC8852F00843173 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		042DB4421BC8852F00843173 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		042DB4441BC8852F00843173 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		042DB4471BC8852F00843173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		042DB45E1BC8852F00843173 /* FreezingDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreezingDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DB4621BC8852F00843173 /* FreezingDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezingDayUITests.swift; sourceTree = "<group>"; };
 		042DB4641BC8852F00843173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DB4701BC88E0E00843173 /* Level1Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
+		042DB4721BC88EA200843173 /* snowman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = snowman.atlas; sourceTree = "<group>"; };
+		042DB4741BC88EA900843173 /* car.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = car.atlas; sourceTree = "<group>"; };
+		042DB4761BC88EB100843173 /* coin.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = coin.atlas; sourceTree = "<group>"; };
+		042DB4781BC88F4000843173 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		042DB4791BC88F4000843173 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		042DB47C1BC88F9800843173 /* SmokeCar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeCar.sks; sourceTree = "<group>"; };
+		042DB47E1BC8903000843173 /* WinningScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningScene.swift; sourceTree = "<group>"; };
+		042DB4801BC8904900843173 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		04D9AF4F1BCD907F008D9BDB /* CustomSKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSKView.swift; sourceTree = "<group>"; };
+		04D9F5EF1BD1621E00036559 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,24 @@
 		042DB43D1BC8852F00843173 /* FreezingDay */ = {
 			isa = PBXGroup;
 			children = (
+				04D9F5EF1BD1621E00036559 /* Sounds */,
 				042DB43E1BC8852F00843173 /* AppDelegate.swift */,
-				042DB4401BC8852F00843173 /* GameScene.sks */,
+				04D9AF4F1BCD907F008D9BDB /* CustomSKView.swift */,
 				042DB4421BC8852F00843173 /* GameScene.swift */,
 				042DB4441BC8852F00843173 /* GameViewController.swift */,
+				042DB4801BC8904900843173 /* GameOverScene.swift */,
+				042DB4701BC88E0E00843173 /* Level1Scene.swift */,
+				042DB47E1BC8903000843173 /* WinningScene.swift */,
+				042DB4761BC88EB100843173 /* coin.atlas */,
+				042DB4741BC88EA900843173 /* car.atlas */,
+				042DB4721BC88EA200843173 /* snowman.atlas */,
 				042DB4461BC8852F00843173 /* Main.storyboard */,
 				042DB4491BC8852F00843173 /* Assets.xcassets */,
 				042DB44B1BC8852F00843173 /* LaunchScreen.storyboard */,
 				042DB44E1BC8852F00843173 /* Info.plist */,
+				042DB4781BC88F4000843173 /* SnowParticle.sks */,
+				042DB4791BC88F4000843173 /* spark.png */,
+				042DB47C1BC88F9800843173 /* SmokeCar.sks */,
 			);
 			path = FreezingDay;
 			sourceTree = "<group>";
@@ -198,6 +228,7 @@
 				TargetAttributes = {
 					042DB43A1BC8852F00843173 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EJKR6DJY6J;
 					};
 					042DB4521BC8852F00843173 = {
 						CreatedOnToolsVersion = 7.0;
@@ -234,9 +265,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042DB4411BC8852F00843173 /* GameScene.sks in Resources */,
+				042DB47B1BC88F4000843173 /* spark.png in Resources */,
 				042DB44D1BC8852F00843173 /* LaunchScreen.storyboard in Resources */,
+				042DB47A1BC88F4000843173 /* SnowParticle.sks in Resources */,
+				04D9F5F01BD1621E00036559 /* Sounds in Resources */,
 				042DB44A1BC8852F00843173 /* Assets.xcassets in Resources */,
+				042DB4771BC88EB100843173 /* coin.atlas in Resources */,
+				042DB4731BC88EA200843173 /* snowman.atlas in Resources */,
+				042DB4751BC88EA900843173 /* car.atlas in Resources */,
+				042DB47D1BC88F9800843173 /* SmokeCar.sks in Resources */,
 				042DB4481BC8852F00843173 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9AF501BCD907F008D9BDB /* CustomSKView.swift in Sources */,
 				042DB4431BC8852F00843173 /* GameScene.swift in Sources */,
+				042DB47F1BC8903000843173 /* WinningScene.swift in Sources */,
 				042DB4451BC8852F00843173 /* GameViewController.swift in Sources */,
 				042DB43F1BC8852F00843173 /* AppDelegate.swift in Sources */,
+				042DB4811BC8904900843173 /* GameOverScene.swift in Sources */,
+				042DB4711BC88E0E00843173 /* Level1Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FreezingDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDay;
@@ -417,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FreezingDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cvtc.csiess.FreezingDay;
@@ -493,6 +536,7 @@
 				042DB4691BC8852F00843173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042DB46A1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +545,7 @@
 				042DB46C1BC8852F00843173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042DB46D1BC8852F00843173 /* Build configuration list for PBXNativeTarget "FreezingDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +554,7 @@
 				042DB46F1BC8852F00843173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
